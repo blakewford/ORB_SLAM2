@@ -3,6 +3,9 @@ SET(CMAKE_LEGACY_CYGWIN_WIN32 0)
 
 PROJECT(g2o)
 
+SET(CMAKE_C_COMPILER /home/blakewford/build/bin/clang)
+SET(CMAKE_CXX_COMPILER /home/blakewford/build/bin/clang++)
+
 SET(g2o_C_FLAGS)
 SET(g2o_CXX_FLAGS)
 
