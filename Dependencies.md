@@ -27,9 +27,6 @@ This is a modified version of [g2o](https://github.com/RainerKuemmerle/g2o). All
 
 #####Library dependencies 
 
-* **Pangolin (visualization and user interface)**.
-[MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
 * **OpenCV**.
 BSD license.
 
