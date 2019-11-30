@@ -24,6 +24,7 @@
 #include "Converter.h"
 #include <thread>
 #include <iomanip>
+#include <unistd.h>
 
 namespace ORB_SLAM2
 {
