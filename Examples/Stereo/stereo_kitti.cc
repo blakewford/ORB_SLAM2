@@ -37,9 +37,6 @@ void LoadImages(const string &strPathToSequence, vector<string> &vstrImageLeft,
 
 int main(int argc, char **argv)
 {
-    argc = 4;
-//    argv = {"Vocabulary/ORBvoc.txt", "Examples/Stereo/KITTI03.yaml", "dataset/sequences/03"};
-
     if(argc != 4)
     {
         cerr << endl << "Usage: ./stereo_kitti path_to_vocabulary path_to_settings path_to_sequence" << endl;
