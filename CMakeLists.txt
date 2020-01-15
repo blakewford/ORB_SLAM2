@@ -10,8 +10,8 @@ ENDIF()
 
 MESSAGE("Build type: " ${CMAKE_BUILD_TYPE})
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -gdwarf-4 -Wall  -O3 -march=native -pthread")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -gdwarf-4 -Wall -O3 -march=native -pthread")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -gdwarf-4 -Wall  -O3 -pthread")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -gdwarf-4 -Wall -O3 -pthread")
 
 # Check C++11 or C++0x support
 include(CheckCXXCompilerFlag)
