@@ -35,6 +35,8 @@ if(NOT OpenCV_FOUND)
    endif()
 endif()
 
+find_package(Eigen3 3.1.0 REQUIRED)
+
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
